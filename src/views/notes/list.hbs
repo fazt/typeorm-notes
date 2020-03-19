@@ -1,0 +1,29 @@
+<h1>{{user.username}}'s Notes</h1>
+
+<div class="row">
+  {{#each notes}}
+  <div class="col-md-4 my-2">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center">
+          <h3>{{title}}</h3>
+          <div>
+            <a href="/notes/edit/{{id}}">
+              <i class="material-icons">
+                create
+              </i>
+            </a>
+            <a href="/notes/delete/{{id}}" class="text-danger">
+              <i class="material-icons">
+                clear
+              </i>
+            </a>
+          </div>
+        </div>
+        <p>{{description}}</p>
+        <p>{{formatDate created_at}}</p>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>

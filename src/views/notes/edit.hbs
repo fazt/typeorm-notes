@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-4 offset-md-4">
+    <div class="card">
+      <div class="card-body">
+        <form action="/notes/update/{{noteFound.id}}" method="POST">
+          <div class="form-group">
+            <input type="text" name="title" placeholder="Note's Title" class="form-control" value="{{noteFound.title}}" autofocus>
+          </div>
+          <div class="form-group">
+            <textarea name="description" placeholder="Note's Description" rows="7" class="form-control">{{noteFound.description}}</textarea>
+          </div>
+          <button class="btn btn-primary btn-block">
+            Update 
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
