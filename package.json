@@ -41,6 +41,7 @@
     "@types/passport": "^1.0.3",
     "@types/passport-local": "^1.0.33",
     "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
     "ncp": "^2.0.0",
     "nodemon": "^2.0.2",
     "typescript": "^3.8.3"
