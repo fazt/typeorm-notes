@@ -1,5 +1,8 @@
 # Typescript, Nodejs & TypeORM Notes App
 
+![](screenshots/signin.png)
+![](screenshots/notes.png)
+
 # Stack
 * Nodejs
 * TypeORM
